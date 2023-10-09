@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <title>Your Company Name - Enquiries</title>
+    <script src="validation.js"></script> 
+</head>
+<body>
+    <header>
+        <h1>Enquiries</h1>
+        <nav>
+            <ul>
+                <ul>
+                    
+                </li> <a href="paulassignment.html" class="active">Home</a></li>
+                </li><a href="servicepage.html" target="_blank">Services</a></li>
+                </li><a href="contact.html" target="_blank">Contact</a></li>
+            </ul>  >
+            </ul>
+        </nav>
+    </header>
+    <section class="container">
+        <h2>Contact Us</h2>
+        <form id="enquiryForm" onsubmit="return validateForm()">
+            <div class="label">
+                <label for="name">Name:</label> <br><br>
+                <label for="number">Number:</label><br><br>
+                <label for="email">Email:</label> <br><br>
+                <label for="enquiry">Enquiry:</label><br><br>
+            </div>
+                
+            
+           <ol>
+            <li><input type="text" id="name" name="name" required>
+            </li><br>
+            
+            <li><input type="text" id="number" name="number" required></li><br>
+
+           
+           <li><input type="email" id="email" name="email" required></li> <br>
+
+           
+           <li><textarea id="enquiry" name="enquiry" rows="4" required></textarea></li> <br>
+           <button type="submit">Submit</button>
+        </ol>
+
+           
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 KunaKisaMisha</p>
+    </footer>
+</body>
+</html>

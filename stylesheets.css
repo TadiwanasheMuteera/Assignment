@@ -1,0 +1,62 @@
+html{
+    background-color: #333;
+    font-size: 22px;
+    color: #fff;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: 0.5rem;
+}
+
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 22px;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+main {
+    margin: 20px;
+}
+
+section.hero {
+    
+    padding: 20px;
+    text-align: center;
+}
+
+section h2 {
+    margin-top: auto;
+    text-decoration: underline;
+}
+
+section h3 {
+    color:whitesmoke;
+}
+
+footer {
+    background-color: #333;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+
+ul a:hover{
+
+    text-shadow: #333;
+    text-decoration: underline;
+}
+table tr,th,td, caption{
+    border: 1px solid whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+
+
+}
